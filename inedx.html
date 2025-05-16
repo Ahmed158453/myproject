@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>وجبات الطعام</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .meals-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .meal-card {
+      width: 250px;
+      border: 2px solid red;
+      border-radius: 10px;
+      background-color: white;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .meal-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .meal-title {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    .meal-info {
+      padding: 10px;
+      color: #333;
+    }
+
+    .add-button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .add-button:hover {
+      background-color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>وجبات الطعام الشهيرة</h1>
+
+  <div class="meals-container">
+    <!-- البطاقة الأولى -->
+    <div class="meal-card"> <img src="تنزيل.jpeg" width="313" height="161" alt=""/>
+      <div class="meal-title"><a href="وجبة-برجر.html" style="color: rgba(255,255,255,1)"><strong>وجبة برجر</strong></a></div>
+      <div class="meal-info">
+        وجبة جبن و بطاطس<br>
+        السعر: 6 دينار
+      </div>
+     
+    </div>
+
+    <!-- البطاقة الثانية -->
+    <div class="meal-card"> <img src="تنزيل (1).jpeg" width="326" height="155" alt=""/>
+      <div class="meal-title"><a href="وجبة الدجاج.html">وجبة الدجاج</a></div>
+      <div class="meal-info">
+       <span style="color: #FFFFFF"> وجبة الدجاج</span><br>
+        السعر: 3 دينار
+      </div>
+     
+    </div>
+
+    <!-- البطاقة الثالثة -->
+    <div class="meal-card"> <img src="تنزيل (2).jpeg" width="225" height="225" alt=""/>
+      <div class="meal-title"><a href="وجبة شيش-طاووق.html">وجبة شيش طاووق</a></div>
+      <div class="meal-info">
+        وجبة شيش طاووق<br>
+        السعر: 5 دينار
+      </div>
+     
+    </div>
+  </div>
+
+</body>
+</html>
